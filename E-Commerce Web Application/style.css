@@ -1,0 +1,41 @@
+body{
+  font-family: Arial;
+  padding:20px;
+  background:#f4f4f4;
+}
+
+h1{
+  text-align:center;
+}
+
+.products{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  text-align:center;
+  width:200px;
+}
+
+img{
+  width:100%;
+}
+
+button{
+  background:blue;
+  color:white;
+  border:none;
+  padding:10px;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+.checkout{
+  margin-top:20px;
+}
